@@ -1,0 +1,13 @@
+FROM node:20
+
+WORKDIR app/src/
+
+COPY ../backend/services/transmissions-factory/package*.json ./
+
+RUN npm install
+
+COPY ../backend/services/transmissions-factory .
+
+RUN npm run build
+
+CMD [ "npm", "run", "start:dev" ]

@@ -1,0 +1,162 @@
+version: '3.7'
+
+services:
+  gateway:
+    build:
+      dockerfile: ./docker/Dockerfile-gateway
+    container_name: gateway
+    volumes:
+      - ./backend/gateway:/app/src
+      - .env:/app/.env
+    env_file:
+      - .env
+    restart: always
+    depends_on:
+      - postgres
+      - nats
+    networks:
+      - default
+
+  assembler:
+    build:
+      dockerfile: ./docker/Dockerfile-assembler
+    container_name: assembler
+    volumes:
+      - ./backend/services/assembler:/app/src
+      - .env:/app/.env
+    env_file:
+      - .env
+    restart: always
+    depends_on:
+      - postgres
+      - nats
+    networks:
+      - default
+
+  engines:
+    build:
+      dockerfile: ./docker/Dockerfile-engins
+    container_name: engines
+    volumes:
+      - ./backend/services/engines-factory:/app/src
+      - .env:/app/.env
+    env_file:
+      - .env
+    restart: always
+    depends_on:
+      - postgres
+      - nats
+    networks:
+      - default
+
+  bodies:
+    build:
+      dockerfile: ./docker/Dockerfile-bodies
+    container_name: bodies
+    volumes:
+      - ./backend/services/bodies-factory:/app/src
+      - .env:/app/.env
+    env_file:
+      - .env
+    restart: always
+    depends_on:
+      - postgres
+      - nats
+    networks:
+      - default
+
+  suspensions:
+    build:
+      dockerfile: ./docker/Dockerfile-suspensions
+    container_name: suspensions
+    volumes:
+      - ./backend/services/suspensions-factory:/app/src
+      - .env:/app/.env
+    env_file:
+      - .env
+    restart: always
+    depends_on:
+      - postgres
+      - nats
+    networks:
+      - default
+
+  transmissions:
+    build:
+      dockerfile: ./docker/Dockerfile-transmissions
+    container_name: transmissions
+    volumes:
+      - ./backend/services/transmissions-factory:/app/src
+      - .env:/app/.env
+    env_file:
+      - .env
+    restart: always
+    depends_on:
+      - postgres
+      - nats
+    networks:
+      - default
+
+  postgres:
+    image: postgres:14-alpine
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_PORT=${DB_PORT}
+      - PGDATA="/var/lib/postgresql/data/pgdata"
+    volumes:
+      - type: volume
+        source: postgres
+        target: /var/lib/postgresql
+      - ./database/dbInit:/docker-entrypoint-initdb.d
+    ports:
+      - 5432:5432
+    restart: always
+    networks:
+      - default
+
+  nginx:
+    build:
+      context: ./nginx-conf/
+      dockerfile: Dockerfile-nginx
+    container_name: nest-nginx
+    depends_on:
+      - gateway
+      - postgres
+      - pgadmin
+    environment:
+      - NGINX_SERVER_NAME=localhost
+      - NEST_HOST=gateway
+      - NEST_PORT=3000
+      - NGINX_MAX_BODY=100M
+    ports:
+      - 80:80
+    networks:
+      - default
+
+  pgadmin:
+    container_name: pgadmin
+    depends_on:
+      - postgres
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+    networks:
+      - default
+
+  nats:
+    image: nats
+    ports:
+      - 4222:4222
+      - 8222:8222
+    restart: always
+    networks:
+      - default
+
+networks:
+  default:
+    driver: bridge
+
+volumes:
+  postgres:

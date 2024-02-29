@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c76e1e0-e8d0-49c7-9221-d45175170c9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/types/item.types.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main_V1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="ProjectId" id="2YzYm6djxmhIAuooVrv6UOdCYJ3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/backend/services/suspensions-factory/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/services/assembler/src/app/orders" />
+      <recent name="$PROJECT_DIR$/backend/services/suspensions-factory/src/app/messaging" />
+      <recent name="$PROJECT_DIR$/backend/services/transmissions-factory/src/app/messaging" />
+      <recent name="$PROJECT_DIR$/backend/services/engines-factory/src/app/messaging" />
+      <recent name="$PROJECT_DIR$/backend/services/bodies-factory/src/app/messaging" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/services/engines-factory/src/app/engine/subscribers" />
+      <recent name="$PROJECT_DIR$/backend/services/engines-factory/src/app/engine" />
+      <recent name="$PROJECT_DIR$/backend/gateway/src/app/orders" />
+      <recent name="$PROJECT_DIR$/backend/services/assembler/src" />
+      <recent name="$PROJECT_DIR$/backend/services" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c76e1e0-e8d0-49c7-9221-d45175170c9d" name="Default Changelist" comment="" />
+      <created>1701530034319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701530034319</updated>
+      <workItem from="1701530035780" duration="9355000" />
+      <workItem from="1701592971072" duration="25000" />
+      <workItem from="1701594844412" duration="10689000" />
+      <workItem from="1701671869643" duration="90000" />
+      <workItem from="1702221317251" duration="9438000" />
+      <workItem from="1704964483006" duration="511000" />
+      <workItem from="1705338963831" duration="251000" />
+      <workItem from="1705339374512" duration="1084000" />
+      <workItem from="1705340686048" duration="1098000" />
+      <workItem from="1705820736121" duration="195000" />
+      <workItem from="1705946929875" duration="1121000" />
+      <workItem from="1705948590343" duration="1526000" />
+      <workItem from="1706092526593" duration="10739000" />
+      <workItem from="1706127002384" duration="4577000" />
+      <workItem from="1706206677040" duration="3920000" />
+      <workItem from="1706213214381" duration="1428000" />
+      <workItem from="1706215086601" duration="160000" />
+      <workItem from="1706249084321" duration="17059000" />
+      <workItem from="1706459118964" duration="4057000" />
+      <workItem from="1706553634159" duration="7446000" />
+      <workItem from="1706638876818" duration="5200000" />
+      <workItem from="1706721274931" duration="9406000" />
+      <workItem from="1706806231695" duration="13895000" />
+      <workItem from="1706897029261" duration="18967000" />
+      <workItem from="1707158433709" duration="6796000" />
+      <workItem from="1707241615964" duration="7762000" />
+      <workItem from="1707252334718" duration="2248000" />
+      <workItem from="1707333278081" duration="5636000" />
+      <workItem from="1707488710098" duration="12069000" />
+      <workItem from="1707665701767" duration="482000" />
+      <workItem from="1707667886560" duration="4484000" />
+      <workItem from="1707722061922" duration="445000" />
+      <workItem from="1707846370434" duration="9603000" />
+      <workItem from="1707933962561" duration="12344000" />
+      <workItem from="1708019338550" duration="11693000" />
+      <workItem from="1708104305629" duration="14057000" />
+      <workItem from="1708156299805" duration="1025000" />
+      <workItem from="1708161858238" duration="30389000" />
+      <workItem from="1708330574727" duration="421000" />
+      <workItem from="1708431251677" duration="6596000" />
+      <workItem from="1708544924657" duration="258000" />
+      <workItem from="1708545494116" duration="5549000" />
+      <workItem from="1708622806259" duration="46071000" />
+      <workItem from="1708877773910" duration="399000" />
+      <workItem from="1708968545667" duration="9900000" />
+      <workItem from="1709053639135" duration="10107000" />
+      <workItem from="1709140861791" duration="5201000" />
+      <workItem from="1709195256616" duration="2864000" />
+      <workItem from="1709200305826" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/backend/gateway" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1708788665364">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1708788665364" />
+    <state x="567" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1709148465357">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="567" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1709148465357" />
+    <state x="662" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1708808821752">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="662" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1708808821752" />
+    <state x="0" y="244" key="FileDocumentManager.FileCacheConflict" timestamp="1706976424341">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="0" y="244" key="FileDocumentManager.FileCacheConflict/0.0.1792.1120@0.0.1792.1120" timestamp="1706976424341" />
+    <state width="279" height="550" key="HiddenNamespacesPopup" timestamp="1708021230210">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="279" height="550" key="HiddenNamespacesPopup/0.0.1792.1120@0.0.1792.1120" timestamp="1708021230210" />
+    <state x="288" y="108" key="SettingsEditor" timestamp="1709199601124">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="288" y="108" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1709199601124" />
+    <state x="779" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1708021259995">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="779" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1792.1120@0.0.1792.1120" timestamp="1708021259995" />
+    <state x="779" y="433" width="392" height="279" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1708164999064">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="779" y="433" width="392" height="279" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1792.1120@0.0.1792.1120" timestamp="1708164999064" />
+    <state x="633" y="350" width="526" height="415" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1708026307664">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="633" y="350" width="526" height="415" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1708026307664" />
+    <state x="216" y="185" width="1467" height="680" key="find.popup" timestamp="1709146618672">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="216" y="185" width="1467" height="680" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1709146618672" />
+    <state x="606" y="307" key="refactoring.ChangeSignatureDialog" timestamp="1708025361542">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="606" y="307" key="refactoring.ChangeSignatureDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1708025361542" />
+    <state x="477" y="262" key="run.anything.popup" timestamp="1706432675003">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="477" y="262" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1706432675003" />
+    <state x="477" y="88" width="838" height="1032" key="search.everywhere.popup" timestamp="1709148484530">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="477" y="88" width="838" height="1032" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1709148484530" />
+    <state x="621" y="461" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1709148366269">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="621" y="461" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1709148366269" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/services/assembler/src/assembler.module.ts</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/gateway/src/gateway.module.ts</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/services/engines-factory/src/app/messaging/messaging.module.ts</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/services/transmissions-factory/src/app/messaging/messaging.module.ts</url>
+          <line>18</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/backend/services/transmissions-factory/src/app/messaging/messaging.controller.ts</url>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

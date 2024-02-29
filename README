@@ -1,0 +1,20 @@
+API: http://.../create_order
+Payload:
+    {
+        "order":
+            {
+                "car":"QWERTY",
+                "email":"qwerty@gmail.com"
+            }
+    }
+
+Response:
+{
+    "id": "f608d652-d9a7-48ff-8a11-8077d8a8d4a7",
+    "car": "QWERTY",
+    "status": "executed",
+    "email": "qwerty@gmail.com",
+    "isExecuted": true,
+    "createdAt": "2024-02-28T19:07:57.137Z",
+    "completeAt": "2024-02-28T19:07:57.378Z"
+}
